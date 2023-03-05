@@ -8,16 +8,27 @@ Data Dictionary:
 1. Phone data as the .csv file: Contains the consumer activity information 
 
 overall:  Overall rating for the particular product given by the user
+
 verified: Whether the user is a verified reviewer or not
+
 reviewerID: ID of the reviewer, e.g. A2SUAM1J3GNN3B
+
 asin:  ID of the product, e.g. 0000013714. ASIN stands for Amazon Standard Identification Number. It is a 10-character alphanumeric unique identifier that is assigned by Amazon.com and its partners. It is primarily used for product-identification within their product catalogue
+
 style: Information about physical features like colour
+
 reviewerName: Name of the reviewer
+
 reviewText: Review provided by the reviewer
+
 summary: Summary of the review
+
 unixReviewTime: Time of the review (Unix time)
+
 vote: Upvotes or Downvotes of the review. A review with more upvotes can hold a higher significance
+
 image: Image of type .png or .jpg, etc provided by the reviewer
+
 review_sentiment: Pre-labelled sentiment of the review which can be either positive or negative. The labels will not be available for the real-time data, and a model needs to be built for such classification
  
 
